@@ -27,6 +27,12 @@ struct HomeView: View {
                             Text("Info")
                         }
                         Spacer()
+                        Button {
+                            router.presentInfoLegal()
+                        } label: {
+                            Text("Info Legal")
+                        }
+                        Spacer()
                     }
                     ScrollView {
                         VStack {

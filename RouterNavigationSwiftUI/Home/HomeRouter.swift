@@ -14,6 +14,7 @@ private enum PushRoute {
 
 private enum ModalRoute {
     case info
+    case infoLegal
 }
 
 class HomeRouter: BaseNavigationRouter {
@@ -34,6 +35,8 @@ class HomeRouter: BaseNavigationRouter {
             switch modalRoute {
             case .info:
                 infoView()
+            case .infoLegal:
+                infoLegalView()
             }
         }
     }
@@ -61,6 +64,20 @@ class HomeRouter: BaseNavigationRouter {
     private func infoView() -> InfoView {
         let view = InfoView()
         view.router.parent = self
+        return view
+    }
+    
+    // MARK: - Present Info Legal (Notification simulation)
+    
+    func presentInfoLegal() {
+        modalRoute = .infoLegal
+        isPresentingModal = true
+    }
+    
+    private func infoLegalView() -> InfoView {
+        let view = InfoView()
+        view.router.parent = self
+        view.router.presentLegal()
         return view
     }
 }
