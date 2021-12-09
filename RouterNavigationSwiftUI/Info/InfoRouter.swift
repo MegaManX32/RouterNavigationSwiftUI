@@ -58,8 +58,8 @@ class InfoRouter: BaseNavigationRouter {
     }
     
     private func doubleModalView() -> DoubleModalView {
-        let view = DoubleModalView()
-        view.router.parent = self
-        return view
+        let router = DoubleModalRouter()
+        router.parent = self
+        return DoubleModalView(router: router)
     }
 }

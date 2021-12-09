@@ -30,8 +30,8 @@ class QuadripleModalRouter: BaseNavigationRouter {
     }
     
     private func quintipleModalView() -> QuintipleModalView {
-        let view = QuintipleModalView()
-        view.router.parent = self
-        return view
+        let router = QuintipleModalRouter()
+        router.parent = self
+        return QuintipleModalView(router: router)
     }
 }

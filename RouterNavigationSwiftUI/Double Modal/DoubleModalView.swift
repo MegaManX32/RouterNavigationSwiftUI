@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct DoubleModalView: View {
-    @ObservedObject var router: DoubleModalRouter = DoubleModalRouter()
+    @StateObject var router: DoubleModalRouter
+    @State private var id = UUID().uuidString
     
     var body: some View {
         NavigationView {
@@ -18,6 +19,9 @@ struct DoubleModalView: View {
                     .padding(EdgeInsets(top: 16, leading: 0, bottom: 16, trailing: 0))
                 Button {
                     router.presentTripleModal()
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                        id = UUID().uuidString
+                    }
                 } label: {
                     Text("Present triple modal")
                 }
@@ -30,6 +34,7 @@ struct DoubleModalView: View {
                 .padding(EdgeInsets(top: 16, leading: 0, bottom: 16, trailing: 0))
                 Spacer()
             }
+            .id(id)
         }
         .fullScreenCover(isPresented: $router.isPresentingModal, onDismiss: {
             print("fullScreenCover dismissed")

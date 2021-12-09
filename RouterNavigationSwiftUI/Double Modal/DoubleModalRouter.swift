@@ -30,8 +30,8 @@ class DoubleModalRouter: BaseNavigationRouter {
     }
     
     private func tripleModalView() -> TripleModalView {
-        let view = TripleModalView()
-        view.router.parent = self
-        return view
+        let router = TripleModalRouter()
+        router.parent = self
+        return TripleModalView(router: router)
     }
 }

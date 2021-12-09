@@ -9,7 +9,7 @@ import SwiftUI
 
 struct InfoView: View {
     
-    @ObservedObject var router: InfoRouter = InfoRouter()
+    @StateObject var router: InfoRouter
     
     var body: some View {
         NavigationView {

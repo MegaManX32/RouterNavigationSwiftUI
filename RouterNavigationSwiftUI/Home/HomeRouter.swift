@@ -62,9 +62,9 @@ class HomeRouter: BaseNavigationRouter {
     }
     
     private func infoView() -> InfoView {
-        let view = InfoView()
-        view.router.parent = self
-        return view
+        let router = InfoRouter()
+        router.parent = self
+        return InfoView(router: router)
     }
     
     // MARK: - Present Info Legal (Notification simulation)
@@ -75,9 +75,10 @@ class HomeRouter: BaseNavigationRouter {
     }
     
     private func infoLegalView() -> InfoView {
-        let view = InfoView()
-        view.router.parent = self
-        view.router.presentLegal()
+        let router = InfoRouter()
+        router.parent = self
+        let view = InfoView(router: router)
+        router.presentLegal()
         return view
     }
 }

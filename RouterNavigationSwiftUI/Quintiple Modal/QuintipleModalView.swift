@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct QuintipleModalView: View {
-    @ObservedObject var router: QuintipleModalRouter = QuintipleModalRouter()
+    @StateObject var router: QuintipleModalRouter
     
     var body: some View {
         NavigationView {

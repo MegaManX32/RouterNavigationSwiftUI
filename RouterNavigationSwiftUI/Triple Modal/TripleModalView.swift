@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TripleModalView: View {
-    @ObservedObject var router: TripleModalRouter = TripleModalRouter()
+    @StateObject var router: TripleModalRouter
     
     var body: some View {
         NavigationView {
