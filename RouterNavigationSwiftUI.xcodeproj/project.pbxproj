@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15157EA72761065A00812E4B /* DoubleModalRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15157EA62761065A00812E4B /* DoubleModalRouter.swift */; };
+		15157EA92761066400812E4B /* DoubleModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15157EA82761066400812E4B /* DoubleModalView.swift */; };
 		15230EF52736FC2400361A13 /* RouterNavigationSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15230EF42736FC2400361A13 /* RouterNavigationSwiftUIApp.swift */; };
 		15230EF72736FC2400361A13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15230EF62736FC2400361A13 /* ContentView.swift */; };
 		15230EF92736FC2500361A13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15230EF82736FC2500361A13 /* Assets.xcassets */; };
@@ -18,6 +20,12 @@
 		15230F0E2737038100361A13 /* NumberDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15230F0D2737038100361A13 /* NumberDetailsRouter.swift */; };
 		15230F112737042400361A13 /* LargeNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15230F102737042400361A13 /* LargeNumberView.swift */; };
 		15230F132737043500361A13 /* LargeNumberRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15230F122737043500361A13 /* LargeNumberRouter.swift */; };
+		159B4B762762086E00271428 /* TripleModalRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159B4B752762086E00271428 /* TripleModalRouter.swift */; };
+		159B4B782762087B00271428 /* TripleModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159B4B772762087B00271428 /* TripleModalView.swift */; };
+		159B4B7A27620A9200271428 /* QuadripleModalRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159B4B7927620A9200271428 /* QuadripleModalRouter.swift */; };
+		159B4B7C27620A9D00271428 /* QuadripleModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159B4B7B27620A9D00271428 /* QuadripleModalView.swift */; };
+		159B4B7E27620AB700271428 /* QuintipleModalRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159B4B7D27620AB700271428 /* QuintipleModalRouter.swift */; };
+		159B4B8027620AD800271428 /* QuintipleModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159B4B7F27620AD800271428 /* QuintipleModalView.swift */; };
 		15B5084D273928E000C2209E /* BaseNavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B5084C273928E000C2209E /* BaseNavigationRouter.swift */; };
 		15B508502739383B00C2209E /* InfoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B5084F2739383B00C2209E /* InfoRouter.swift */; };
 		15B50854273938D200C2209E /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B50853273938D200C2209E /* InfoView.swift */; };
@@ -26,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15157EA62761065A00812E4B /* DoubleModalRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleModalRouter.swift; sourceTree = "<group>"; };
+		15157EA82761066400812E4B /* DoubleModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleModalView.swift; sourceTree = "<group>"; };
 		15230EF12736FC2400361A13 /* RouterNavigationSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouterNavigationSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15230EF42736FC2400361A13 /* RouterNavigationSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterNavigationSwiftUIApp.swift; sourceTree = "<group>"; };
 		15230EF62736FC2400361A13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +48,12 @@
 		15230F0D2737038100361A13 /* NumberDetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberDetailsRouter.swift; sourceTree = "<group>"; };
 		15230F102737042400361A13 /* LargeNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeNumberView.swift; sourceTree = "<group>"; };
 		15230F122737043500361A13 /* LargeNumberRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeNumberRouter.swift; sourceTree = "<group>"; };
+		159B4B752762086E00271428 /* TripleModalRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripleModalRouter.swift; sourceTree = "<group>"; };
+		159B4B772762087B00271428 /* TripleModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripleModalView.swift; sourceTree = "<group>"; };
+		159B4B7927620A9200271428 /* QuadripleModalRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadripleModalRouter.swift; sourceTree = "<group>"; };
+		159B4B7B27620A9D00271428 /* QuadripleModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadripleModalView.swift; sourceTree = "<group>"; };
+		159B4B7D27620AB700271428 /* QuintipleModalRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuintipleModalRouter.swift; sourceTree = "<group>"; };
+		159B4B7F27620AD800271428 /* QuintipleModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuintipleModalView.swift; sourceTree = "<group>"; };
 		15B5084C273928E000C2209E /* BaseNavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationRouter.swift; sourceTree = "<group>"; };
 		15B5084F2739383B00C2209E /* InfoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRouter.swift; sourceTree = "<group>"; };
 		15B50853273938D200C2209E /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
@@ -56,6 +72,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15157EA52761064000812E4B /* Double Modal */ = {
+			isa = PBXGroup;
+			children = (
+				15157EA62761065A00812E4B /* DoubleModalRouter.swift */,
+				15157EA82761066400812E4B /* DoubleModalView.swift */,
+			);
+			path = "Double Modal";
+			sourceTree = "<group>";
+		};
 		15230EE82736FC2400361A13 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +103,10 @@
 				15230F0A273700C300361A13 /* Router */,
 				15230F022736FC3800361A13 /* Home */,
 				15B5084E2739382B00C2209E /* Info */,
+				15157EA52761064000812E4B /* Double Modal */,
+				159B4B722762082F00271428 /* Triple Modal */,
+				159B4B732762083900271428 /* Quadriple Modal */,
+				159B4B742762084100271428 /* Quintiple Modal */,
 				15B5085527393AA700C2209E /* Legal */,
 				15230F072736FC5A00361A13 /* Numbers */,
 				15230F0F2737041400361A13 /* LargeNumber */,
@@ -131,6 +160,33 @@
 				15230F122737043500361A13 /* LargeNumberRouter.swift */,
 			);
 			path = LargeNumber;
+			sourceTree = "<group>";
+		};
+		159B4B722762082F00271428 /* Triple Modal */ = {
+			isa = PBXGroup;
+			children = (
+				159B4B752762086E00271428 /* TripleModalRouter.swift */,
+				159B4B772762087B00271428 /* TripleModalView.swift */,
+			);
+			path = "Triple Modal";
+			sourceTree = "<group>";
+		};
+		159B4B732762083900271428 /* Quadriple Modal */ = {
+			isa = PBXGroup;
+			children = (
+				159B4B7927620A9200271428 /* QuadripleModalRouter.swift */,
+				159B4B7B27620A9D00271428 /* QuadripleModalView.swift */,
+			);
+			path = "Quadriple Modal";
+			sourceTree = "<group>";
+		};
+		159B4B742762084100271428 /* Quintiple Modal */ = {
+			isa = PBXGroup;
+			children = (
+				159B4B7D27620AB700271428 /* QuintipleModalRouter.swift */,
+				159B4B7F27620AD800271428 /* QuintipleModalView.swift */,
+			);
+			path = "Quintiple Modal";
 			sourceTree = "<group>";
 		};
 		15B5084E2739382B00C2209E /* Info */ = {
@@ -223,15 +279,23 @@
 			files = (
 				15230F092736FC6A00361A13 /* NumberDetailsView.swift in Sources */,
 				15230F052736FC4400361A13 /* HomeView.swift in Sources */,
+				159B4B8027620AD800271428 /* QuintipleModalView.swift in Sources */,
 				15230F0C273700D600361A13 /* NavigationRouter.swift in Sources */,
+				15157EA92761066400812E4B /* DoubleModalView.swift in Sources */,
 				15230F0E2737038100361A13 /* NumberDetailsRouter.swift in Sources */,
 				15B50854273938D200C2209E /* InfoView.swift in Sources */,
 				15230F062736FC4400361A13 /* HomeRouter.swift in Sources */,
+				159B4B7E27620AB700271428 /* QuintipleModalRouter.swift in Sources */,
 				15B5085D27393B4300C2209E /* LegalView.swift in Sources */,
+				159B4B7A27620A9200271428 /* QuadripleModalRouter.swift in Sources */,
 				15230EF72736FC2400361A13 /* ContentView.swift in Sources */,
+				159B4B7C27620A9D00271428 /* QuadripleModalView.swift in Sources */,
 				15230EF52736FC2400361A13 /* RouterNavigationSwiftUIApp.swift in Sources */,
+				159B4B762762086E00271428 /* TripleModalRouter.swift in Sources */,
+				15157EA72761065A00812E4B /* DoubleModalRouter.swift in Sources */,
 				15B508502739383B00C2209E /* InfoRouter.swift in Sources */,
 				15230F132737043500361A13 /* LargeNumberRouter.swift in Sources */,
+				159B4B782762087B00271428 /* TripleModalView.swift in Sources */,
 				15230F112737042400361A13 /* LargeNumberView.swift in Sources */,
 				15B5085727393B0E00C2209E /* LegalRouter.swift in Sources */,
 				15B5084D273928E000C2209E /* BaseNavigationRouter.swift in Sources */,

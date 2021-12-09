@@ -53,9 +53,17 @@ struct HomeView: View {
                 }
                 .navigationTitle("Numbers")
             }
+            .onAppear {
+                print("HomeView onAppear")
+            }
+            .onDisappear {
+                print("HomeView onDisappear")
+            }
         }
         .navigationViewStyle(.stack)
-        .fullScreenCover(isPresented: $router.isPresentingModal) {
+        .fullScreenCover(isPresented: $router.isPresentingModal, onDismiss: {
+            print("fullScreenCover dismissed")
+        }) {
             router.modalView()
         }
     }

@@ -22,6 +22,12 @@ struct InfoView: View {
                     Text("For programers by programers")
                         .padding(EdgeInsets(top: 16, leading: 0, bottom: 16, trailing: 0))
                     Button {
+                        router.presentDoubleModal()
+                    } label: {
+                        Text("View Dobule Modal")
+                    }
+                    .padding(EdgeInsets(top: 16, leading: 0, bottom: 16, trailing: 0))
+                    Button {
                         router.presentLegal()
                     } label: {
                         Text("View Legal")
@@ -35,6 +41,11 @@ struct InfoView: View {
                     .padding(EdgeInsets(top: 16, leading: 0, bottom: 16, trailing: 0))
                 }
             }
+        }
+        .fullScreenCover(isPresented: $router.isPresentingModal, onDismiss: {
+            print("fullScreenCover dismissed")
+        }) {
+            router.modalView()
         }
     }
 }
