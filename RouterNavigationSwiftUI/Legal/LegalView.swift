@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LegalView: View {
     
-    @ObservedObject var router: LegalRouter = LegalRouter()
+    @StateObject var router: LegalRouter
     
     var body: some View {
         VStack {

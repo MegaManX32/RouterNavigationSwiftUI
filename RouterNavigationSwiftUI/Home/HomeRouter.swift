@@ -49,9 +49,9 @@ class HomeRouter: BaseNavigationRouter {
     }
     
     private func numberDetailsView(number: Int) -> NumberDetailsView {
-        let view = NumberDetailsView(number: number)
-        view.router.parent = self
-        return view
+        let router = NumberDetailsRouter()
+        router.parent = self
+        return NumberDetailsView(router: router, number: number)
     }
     
     // MARK: - Info

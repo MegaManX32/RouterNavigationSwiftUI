@@ -32,9 +32,9 @@ class NumberDetailsRouter: BaseNavigationRouter {
     }
     
     private func largeNumberView(number: Int) -> LargeNumberView {
-        let view = LargeNumberView(largeNumber: number)
-        view.router.parent = self
-        return view
+        let router = LargeNumberRouter()
+        router.parent = self
+        return LargeNumberView(router: router, largeNumber: number)
     }
 }
 

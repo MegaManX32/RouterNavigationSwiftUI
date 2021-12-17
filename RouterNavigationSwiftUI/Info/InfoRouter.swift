@@ -52,9 +52,9 @@ class InfoRouter: BaseNavigationRouter {
     }
     
     private func legalView() -> LegalView {
-        let view = LegalView()
-        view.router.parent = self
-        return view
+        let router = LegalRouter()
+        router.parent = self
+        return LegalView(router: router)
     }
     
     private func doubleModalView() -> DoubleModalView {

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     
-    @ObservedObject var router: HomeRouter = HomeRouter()
+    @StateObject var router: HomeRouter = HomeRouter()
     
     var body: some View {
         NavigationView {

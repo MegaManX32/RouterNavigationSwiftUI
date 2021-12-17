@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LargeNumberView: View {
     
-    @ObservedObject var router: LargeNumberRouter = LargeNumberRouter()
+    @StateObject var router: LargeNumberRouter
     
     let largeNumber: Int
     

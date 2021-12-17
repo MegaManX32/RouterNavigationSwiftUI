@@ -9,7 +9,7 @@ import SwiftUI
 
 struct NumberDetailsView: View {
     
-    @ObservedObject var router: NumberDetailsRouter = NumberDetailsRouter()
+    @StateObject var router: NumberDetailsRouter
     
     let number: Int
     
